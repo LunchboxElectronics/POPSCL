@@ -26,7 +26,7 @@ Bill of Materials:
     - 2 DC motors (sourced from Hummingbird Duo kit, http://www.hummingbirdkit.com/learning/duo-datasheet#fMotor)
     - STL files for 2 pullies from AndyMark (http://www.andymark.com/product-p/am-2234.htm)
     - HTD timing belt, 1,000mm outer circle (http://www.mcmaster.com/#7939k31/=128nldv)
-    - IR emitter and IR detector
+    - IR emitter and IR detector (https://www.sparkfun.com/products/241)
     - 3 1.125" bearing (http://bit.ly/1Tkejrw purchased from Fastenal)
   - Carousel
     - 3 #4-40 by 1/4" machine screws
