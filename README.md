@@ -32,7 +32,7 @@ Bill of Materials:
     - 3 #4-40 by 1/4" machine screws
     - 3 #4-40 threaded inserts for plastic (http://www.mcmaster.com/#93365a120/=12964yt)
     - Stepper motor (https://www.sparkfun.com/products/9238)
-    - Photocell
+    - Photocell (https://www.sparkfun.com/products/9088)
     - Half of a lulzbot filament reel
 - Arduino
 - Sparkfun Easydriver board
