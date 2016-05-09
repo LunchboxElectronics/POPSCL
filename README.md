@@ -14,19 +14,19 @@ counting out a certain number of bricks and bagging them for hours, POPSCL will 
 hopper and put them one by one onto a conveyor belt to be counted. These bricks are then dropped into a 
 bucket to be dumped into a bag by the operator. 
 
-The basic workflow of POPSCL is
-1. A bunch of bricks get dumped into the hopper
-2. The cleated belt runs through the hopper picking bricks up one by one
-3. The cleated belt drops the individual bricks onto the prefeeder which is the transition to the conveyor belt.
-4. Once on the conveyor belt the bricks pass through a IR gate (this break of the IR beam is registered and each
+The basic workflow of POPSCL is:
+  1. A bunch of bricks get dumped into the hopper
+  2. The cleated belt runs through the hopper picking bricks up one by one
+  3. The cleated belt drops the individual bricks onto the prefeeder which is the transition to the conveyor belt.
+  4. Once on the conveyor belt the bricks pass through a IR gate (this break of the IR beam is registered and each
 brick is counted as it goes by)
-5. The bricks then fall off the conveyor belt in a bucket on the carousel
-6. When the determined number of bricks per bag is reached all motors stop and the carousel rotates to fill an
+  5. The bricks then fall off the conveyor belt in a bucket on the carousel
+  6. When the determined number of bricks per bag is reached all motors stop and the carousel rotates to fill an
 empty bucket with more bricks
-7. This process continues till there are no more bricks to bag
+  7. This process continues till there are no more bricks to bag
 
 
-Bill of Materials:
+# Bill of Materials:
 - All supplied 3D printed STL files
 - Additional non-printed hardwear (per assembly)
   - Hopper
