@@ -1,5 +1,5 @@
-# Fulfillment-Line
-POPSCL - Printed Open-Source Product Supply Counting Line -
+# POPSCL
+- Printed Open-Source Product Supply Counting Line -
 This repository contains all the STL files needed to recreate Lunchbox Electronics Fulfillment Line POPSCL
 In addition to the STL files:
 STL files for the convayor belt pullies can be found here:
