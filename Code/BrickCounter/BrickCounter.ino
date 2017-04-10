@@ -35,8 +35,8 @@ long timer2;                   // Keep a second reference time for delay after b
 bool limit = false;            // initiate a condition that bagbricks limit reached
 int photopin = 5;              // define pin for photoresistor
 int photo;
-int prefeederspeed = 120;
-int convayorspeed = 100;
+int prefeederspeed = 80;
+int convayorspeed = 120;
 
 
 LedControl counter = LedControl(10, 8, 9, 1);  // (DIN, CLK, LOAD, number of chips)
@@ -134,7 +134,7 @@ void loop() {
     bricks = 0;                           // cycle over to recount for next bag
   }
   }
-  if (currenttime - timer2 > 1100 && limit == true) {
+  if (currenttime - timer2 > 1025 && limit == true) {
     printNumber(bricks);
     digitalWrite(prefeederpin, LOW);      // code to stop motors for a duration
     digitalWrite(convayorpin, LOW);
@@ -250,7 +250,7 @@ void resetEDPins()
 
 // RUN STEPPER MOTOR FORWARDS TILL NEXT BUCKET (based on photoresistor reading)
 void runmotor(){
-  digitalWrite(dir, LOW);   //move "forward"
+  digitalWrite(dir, HIGH);   //move "forward"
   digitalWrite(MS1, HIGH);  // High MS1 and High MS2 is 1/8 step
   digitalWrite(MS2, HIGH);
   //STEP TRIGGER
@@ -263,7 +263,7 @@ void runmotor(){
 
 // JOG STEPPER MOTOR FORWARDS 100/8 steps
 void jogmotor(){
-  digitalWrite(dir, LOW); //move "forward"
+  digitalWrite(dir, HIGH); //move "forward"
   digitalWrite(MS1, HIGH);  // High MS1 and High MS2 is 1/8 step
   digitalWrite(MS2, HIGH);
   for (int x= 1; x < 100; x++) {
